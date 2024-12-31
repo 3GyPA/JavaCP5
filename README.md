@@ -14,4 +14,4 @@
 1. Клонувати репозиторій:
 
    ```bash
-   git clone https://github.com/your-username/music-album-management.git
+   git clone https://github.com/user/JavaCP5.git
