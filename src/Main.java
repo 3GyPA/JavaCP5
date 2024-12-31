@@ -1,8 +1,18 @@
+/**
+ * Головний клас для тестування альбому та музичних композицій.
+ * У цьому класі створюється альбом, додаються композиції, виконується маніпуляція ними.
+ */
 public class Main {
+    /**
+     * Головний метод для тестування функціональності альбому та композицій.
+     *
+     * @param args Параметри командного рядка (не використовуються).
+     */
     public static void main(String[] args) {
+        // Створюємо новий альбом
         Album album = new Album();
 
-        // Додаємо композиції в альбом
+        // Додаємо композиції до альбому
         album.addComposition(new RockComposition("We Will Rock You", 3.5));
         album.addComposition(new ClassicalComposition("Für Elise", 2.5));
         album.addComposition(new JazzComposition("Take Five", 5.5));
